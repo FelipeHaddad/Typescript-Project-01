@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Negociacao = void 0;
 // Export permite que a classe seja importada para o app.js
-class Negociacao {
+export class Negociacao {
     // Construtor responsável por criar uma instância da classe Negociacao
     constructor(data, quantidade, valor) {
         this._data = data;
@@ -23,4 +20,3 @@ class Negociacao {
         return this._quantidade * this._valor;
     }
 }
-exports.Negociacao = Negociacao;

@@ -2,7 +2,8 @@
     "compilerOptions": {
         "outDir": "dist/js",    // Depois de ler os arquivos .ts onde vou gravar os arquivos resultantes
         "target": "ES6",        // ECMAScript 6 -> Versão do javascript que o código será traduzido
-        "noEmitOnError": true,  // Não vai gerar arquivo .js enquanto algum arquivo .ts tiver algum problema
+        "noEmitOnError": true,
+        "noImplicitAny": true,  // Não vai gerar arquivo .js enquanto algum arquivo .ts tiver algum problema
         "moduleResolution": "nodenext",
         "module": "nodenext",
     },
